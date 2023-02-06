@@ -1,0 +1,93 @@
+/*Főtestek*/
+body{
+    background-color: rgb(255, 94, 0);
+    color: red;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    border-radius: 6px;
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+    background-image: url(kepek/Névtelen.png);
+    display: grid;
+    grid-template-areas: 
+    "he he he"
+    "ar as nav"
+    "fo fo fo"
+    ;
+}
+b{
+    color: white;
+}
+nav, ul{
+    font-size: 20px;
+    list-style-type: none;
+    grid-area: nav;
+}
+
+article{
+    grid-area: ar;
+}
+
+footer{
+    grid-area: fo;
+}
+
+header{
+    grid-area: he;
+}
+aside{
+    grid-area: as;
+}
+/*Kissebb igazítások*/
+a{
+    text-decoration: none;
+    color: red;
+    border: 2px solid yellow;
+    background-color: yellow;
+    border-radius: 2px;
+    margin: 15px;
+}
+a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+img{
+    height: 150px;
+    width: 200px;
+    margin: 15px;
+    border: 3px solid yellow;
+    border-radius: 2px;
+}
+
+ol{
+    padding: 20px;
+    margin: 20px;
+    list-style-type: circle;
+}
+
+li{
+    padding-bottom: 5px;
+}
+
+label{
+    background-color: rgb(58, 58, 233);
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin:10px;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+input{
+    margin: 10px;
+}
+
+.feher{
+    background-color: white;
+    color: black;
+}

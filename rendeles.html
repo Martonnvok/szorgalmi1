@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+    <title>Gyakorló 02.06</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Értékelés:</h1>
+        </header>
+        <nav>
+              <ul>
+                <li><b><a href="index.html">Főoldal</a></b> </li>
+                <li><b><a href="rendeles.html">Értékelés</a></b> </li>
+            </ul>
+        </nav>
+        <article>
+            <form>
+                <div class="form-group row">
+                  <label for="text" class="col-4 col-form-label">Kérem írja le a felhasználó nevét:</label> 
+                  <div class="col-4">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">
+                          <i class="fa fa-address-card"></i>
+                        </div>
+                      </div> 
+                      <input id="text" name="text" type="text" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="text1" class="col-4 col-form-label">Mi a véleményed az oldalról:</label> 
+                  <div class="col-4">
+                    <input id="text1" name="text1" type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-4">Mennyire érthető az oldal?</label> 
+                  <div class="col-4">
+                    <div class="custom-control custom-checkbox custom-control-inline ">
+                      <input name="checkbox" id="checkbox_0" type="checkbox" checked="checked" class="custom-control-input" value="rabbit"> 
+                      <label for="checkbox_0" class="custom-control-label feher">Nem érthető</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input name="checkbox" id="checkbox_1" type="checkbox" class="custom-control-input" value="duck"> 
+                      <label for="checkbox_1" class="custom-control-label feher">Érthető volt úgy ahogy</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input name="checkbox" id="checkbox_2" type="checkbox" class="custom-control-input" value="fish"> 
+                      <label for="checkbox_2" class="custom-control-label feher">Teljes mértékben érthető</label>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="form-group row">
+                  <label for="select" class="col-4 col-form-label">Egy 5-ös skálán mennyire elégedett az oldallal:</label> 
+                  <div class="col-4">
+                    <select id="select" name="select" class="custom-select">
+                      <option value="1">1 csillag</option>
+                      <option value="2">2 csillag</option>
+                      <option value="3">3 csillag</option>
+                      <option value="4">4 csillag</option>
+                      <option value="5">5 csillag</option>
+                    </select>
+                  </div>
+                </div> 
+                <div class="form-group row">
+                  <div class="offset-4 col-8">
+                    <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </form>
+        </article>
+        <aside>
+          <form>
+           
+          </form>
+        </aside>
+        <footer>
+          <b>&copy;Minden jog fenntartva</b>
+          <br>
+          <b>Értékelés a következő oldalnál: <a href="index.html">Vissza</a></b>
+        </footer>
+    </main>
+</body>
+</html>
